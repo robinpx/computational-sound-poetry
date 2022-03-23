@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/computational-sound-poetry/static/css/main.1183115e.css",
-    "main.js": "/computational-sound-poetry/static/js/main.f97e4c01.js",
+    "main.js": "/computational-sound-poetry/static/js/main.a7ee2733.js",
     "static/js/787.54a5e8ef.chunk.js": "/computational-sound-poetry/static/js/787.54a5e8ef.chunk.js",
     "index.html": "/computational-sound-poetry/index.html",
     "main.1183115e.css.map": "/computational-sound-poetry/static/css/main.1183115e.css.map",
-    "main.f97e4c01.js.map": "/computational-sound-poetry/static/js/main.f97e4c01.js.map",
+    "main.a7ee2733.js.map": "/computational-sound-poetry/static/js/main.a7ee2733.js.map",
     "787.54a5e8ef.chunk.js.map": "/computational-sound-poetry/static/js/787.54a5e8ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1183115e.css",
-    "static/js/main.f97e4c01.js"
+    "static/js/main.a7ee2733.js"
   ]
 }
