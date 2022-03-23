@@ -1,18 +1,13 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Index from './components/Index';
+import Pages from './components/Pages';
 
 function App() {
   return (
-    <Router>
     <div id="container">
       <div id="content">
-      <Routes>
-        <Route index element={<Index />} />
-      </Routes>
+        <Pages />
       </div>
     </div>
-    </Router>
   );
 }
 
