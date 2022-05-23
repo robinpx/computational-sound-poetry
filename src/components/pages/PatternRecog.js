@@ -10,11 +10,7 @@ function PatternRecog() {
     const playPause = () => {
         const audioElem = document.getElementById("bell");
         if (isPlaying && !isEnded) {
-            audioElem.pause();
-            setIsPlaying(false);
-            setIsEnded(true);
-            clearInterval(intervalID);
-            setInterval(-1);
+            return;
         }
         else if (!isPlaying && isEnded) {
             setIsPlaying(true);
@@ -78,9 +74,11 @@ function PatternRecog() {
     },[setPattern, pattern])
 
     return pattern !== -1 ? 
-    <div id="pattern-recog" onClick={playPause}>
-        <div id="soundnote">
-            <img className={isPlaying ? "sound-on" : "sound-off"} alt="speaker" src="https://img.icons8.com/ios-glyphs/30/000000/room-sound.png"/>
+    <div id="container-strict">
+    <div id="pattern-recog">
+        <div id="soundnote" onClick={playPause}>
+            <img className={isPlaying ? "sound-on" : "sound-off"} alt="speaker" src="https://img.icons8.com/ios-glyphs/30/000000/room-sound.png"/> 
+            {isPlaying ? <p>Speaking...</p> : <p>Speak</p>}
         </div>
 
         <audio id="bell">
@@ -97,6 +95,7 @@ function PatternRecog() {
                 </div> 
             </React.Fragment>
         })}
+    </div>
     </div>
     : <React.Fragment />
     

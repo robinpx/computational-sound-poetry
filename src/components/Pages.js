@@ -23,18 +23,19 @@ function Pages() {
   }
   else if (windowlink.includes("computational-sound-poetry") > 0) {
     return (
-      <React.Fragment>
+      <div id="container-strict">
+      <div id="cover">
       <header>
-      <div id="title">computational / sound poetry</div>
-      <div id="desc">headphones on</div>
+      <div id="title">Computational Sound Poetry</div>
       </header>
-        <div id="index">
+      <div id="index">
             <a href="?chaos-theory">chaos theory</a>
             <a href="?pattern-recognition">pattern recognition</a>
             <a href="?silent-forest">林中答案</a>
             <a href="?eternal">eternal ear</a>
       </div>
-      </React.Fragment>
+      <div id="desc"><i>Computational Sound Poetry</i> is a small collection of working interactive poems written by <a href="https://robinpx.github.io">Robin *</a> that designs spiritual textual landscapes about chaos and balance, silence and noise, peace and terror with sound and computation.</div>
+      </div></div>
     );
   }
   return <React.Fragment/>

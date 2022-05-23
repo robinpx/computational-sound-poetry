@@ -87,10 +87,11 @@ function Eternal() {
     },[played, isPlaying,setIntervalID,intervalID, subtitles, flash]);
 
     return played !== -1 ? 
+    <div id="container-strict">
         <div id="eternal" onClick={playPause} className={flash}>
         {chaosGrid}
         <div id="soundnote">
-            <img className={isPlaying ? "sound-on" : "sound-off"} alt="speaker" src="https://img.icons8.com/ios-glyphs/30/000000/room-sound.png"/>
+            <img className={isPlaying ? "sound-on" : "sound-off"} alt="speaker" src="https://img.icons8.com/ios-glyphs/30/000000/room-sound.png"/> 
         </div>
 
         <audio id="song"> 
@@ -99,13 +100,13 @@ function Eternal() {
         </audio>
 
         <div className={"left " + subtitles[0]}>。</div>
-        <div className={"left " + subtitles[1]}>&nbsp; &nbsp; what is</div>
-        <div className={"left " + subtitles[2]}>&nbsp; &nbsp; &nbsp; this </div> 
-        <div className={"left " + subtitles[3]}> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; eternal</div> 
-        <div className={"left " + subtitles[4]}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; vastness</div> 
+        <div className={"left " + subtitles[1]} style={{ marginLeft : '1em' }}>what is</div>
+        <div className={"left " + subtitles[2]} style={{ marginLeft : '2.5em' }}>this </div> 
+        <div className={"left " + subtitles[3]} style={{ marginLeft : '3.5em' }}>eternal</div> 
+        <div className={"left " + subtitles[4]} style={{ marginLeft : '5em' }}>vastness</div> 
         <div className={"center " + subtitles[5]}>overwhelming</div>  
-        <div className={"center " + subtitles[6]}>my being</div>  
-        <div className={"right " + subtitles[7]}>if only&nbsp;&nbsp;&nbsp;</div>
+        <div className={"center " + subtitles[6]} style={{ marginLeft : '5em' }}>my being</div>  
+        <div className={"right " + subtitles[7]} style={{ marginRight : '4em' }}>if only</div>
         <div className={"right " + subtitles[8]}>i had known</div>
 
         <div id="progressbar">
@@ -113,6 +114,7 @@ function Eternal() {
         </div>
 
        </div>
+    </div>
     : <React.Fragment/>
 }
   
