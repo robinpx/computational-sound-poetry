@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/computational-sound-poetry/static/css/main.6a9c436e.css",
-    "main.js": "/computational-sound-poetry/static/js/main.1807df56.js",
+    "main.css": "/computational-sound-poetry/static/css/main.5009ad7f.css",
+    "main.js": "/computational-sound-poetry/static/js/main.f4a6e468.js",
     "static/js/787.54a5e8ef.chunk.js": "/computational-sound-poetry/static/js/787.54a5e8ef.chunk.js",
     "index.html": "/computational-sound-poetry/index.html",
-    "main.6a9c436e.css.map": "/computational-sound-poetry/static/css/main.6a9c436e.css.map",
-    "main.1807df56.js.map": "/computational-sound-poetry/static/js/main.1807df56.js.map",
+    "main.5009ad7f.css.map": "/computational-sound-poetry/static/css/main.5009ad7f.css.map",
+    "main.f4a6e468.js.map": "/computational-sound-poetry/static/js/main.f4a6e468.js.map",
     "787.54a5e8ef.chunk.js.map": "/computational-sound-poetry/static/js/787.54a5e8ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a9c436e.css",
-    "static/js/main.1807df56.js"
+    "static/css/main.5009ad7f.css",
+    "static/js/main.f4a6e468.js"
   ]
 }
