@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color:#666;
+  color:#222;
   transition:0.5s;
 }
 
@@ -19,14 +19,18 @@ a:hover {
   color:#000;
 }
 
+#index ol {
+  padding:0em 0em 0em 1em;
+}
+
 #index a {
-  font-size:1.3em;
   display:block;
   margin-bottom:1.5em;
+  margin-left:0.5em;
 }
 
 #index a:hover {
-  margin-left:0.5em;
+  margin-left:0.75em;
 }
 
 .center {
@@ -76,11 +80,7 @@ a:hover {
   display:flex;
   justify-content:center;
   align-items:center;
-}
-
-#cover {
-  width:50%;
-  padding:4em;
+  padding:2.5em;
 }
 
 #container > div {
@@ -173,7 +173,7 @@ a:hover {
 }
 
 header {
-  font-size:2em;
+  font-size:1.2em;
 }
 
 #eternal > div {
@@ -217,9 +217,8 @@ header {
 }
 
 #desc {
-  margin-top:3em;
-  border-top:1px dashed #ccc;
-  padding-top:2em;
+  margin:2em 0;
+  width:50%;
   color:#888;
 }
 
